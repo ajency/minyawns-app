@@ -1,0 +1,102 @@
+".txt" : {
+	backgroundColor : '#FFF',
+	color : '#222',
+	font : {
+		fontFamily: "OpenSans",
+		fontSize:'16dp'
+	}
+	
+},
+".txtborder" : {
+	borderWidth : 0.8,
+	borderColor : "#000000"
+},
+".login" : {
+	backgroundColor : '#89D813',
+	color : "#FFF",
+	backgroundImage : "null",
+	font : {
+		fontFamily: "OpenSans",
+		fontWeight: 'bold',
+		fontSize:'18dp'
+	}
+},
+".fblogin" : {
+	backgroundColor : '#48629B',
+	color : "#FFF",
+	backgroundImage : "null",
+	font : {
+		fontFamily: "OpenSans",
+		fontSize:'16dp'
+	}
+},
+".ver" : {
+	layout : 'vertical'
+},
+'.span1' :  {
+    width: '90%',
+    left : '5%',
+    right : '5%'
+},
+'.span2' :  {
+    width: '70%',
+    left : '15%',
+    right : '15%'
+},
+'.span3':{
+	width:'80%',
+	height:'12%'
+},
+
+/*
+ * Top margins
+ */
+'.top1' : {
+	top : 5
+},
+'.top2':{
+	top:'15'
+},
+
+/*
+ * for list view items
+ */
+".cellbackgrd":{
+	 backgroundColor:"white" 
+},
+".itemTitle":{
+	font : {
+		fontFamily: "Roboto-Bold",
+		fontSize:'16dp'
+	}
+},
+".itemDes":{
+	font : {
+		fontFamily: "OpenSans-Light",
+		fontSize:'12dp'
+	}
+},
+".itemDesMiddle":{
+	font : {
+		fontFamily: "OpenSans-Light",
+		fontWeight: 'bold',
+		fontSize:'15dp'
+	}
+},
+".itemDesBottom":{
+	font : {
+		fontFamily: "OpenSans-Light",
+		fontSize:'11dp'
+	}
+},
+
+".separator":{
+	backgroundColor:'#F3F3F3'
+},
+".bottomView":{
+	backgroundColor:'#F8F8F8'
+}
+
+/*
+ * Navigation Top bar 
+ */

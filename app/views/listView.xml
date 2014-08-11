@@ -1,0 +1,38 @@
+<Alloy>
+		<ListView id="listView" defaultItemTemplate="template1"   >
+			<Templates >
+				<ItemTemplate class="span1 top2 cellbackgrd" name="template1" height="220">
+
+					<Label bindId="jobDescription" left="3%" top="5%"  class="itemTitle" />
+				<!--	<ImageView left="3%" top="32%" image="/images/global/time.png"></ImageView>
+					<Label bindId="jobTime" left="8%" top="30%"  class="itemDes" /> -->
+					<ImageView left="4%" top="32%" image="/images/global/location.png"></ImageView>
+					<Label bindId="jobAddr" left="8%" top="30%"  class="itemDes" />
+					<ImageView left="47%" top="32%" image="/images/global/user.png"></ImageView>
+					<Label bindId="reqMinyawn" left="52%" top="30%"  class="itemDes" />
+					<View class="separator" width="100%" height="1" bottom="32%" ></View>
+					<View top="65%" class="bottomView">
+						<Label bindId="startDay" left="3%" top="2%"  class="itemDesMiddle" />
+						<Label bindId="startMonth" left="9%" top="2%" class="itemDesMiddle"/>
+						<ImageView left="3%" top="55%" image="/images/global/time.png"></ImageView>
+					    <Label bindId="jobTime" left="8%" top="50%"  class="itemDes" /> 
+						<Label bindId="wages" left="40%" top="2%" color="#8CD817" class="itemDesMiddle"/>
+						<Label bindId="statusLabel" left="50%"  class="itemDes"></Label>
+						<Button id="statusButtonClicked" bindId="statusButton" left="75%" onClick="show"></Button>
+					</View>
+
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="section" dataCollection="job" dataTransform="transformFunction" dataFilter="filterFunction" >
+				<ListItem  jobDescription:text="{post_name}" jobTime:text="{job_start_time}" reqMinyawn:text="{required_minyawns}" jobAddr:text="{job_location}" startDay:text="{job_start_day}"  startMonth:text="{job_start_month}" wages:text="{job_wages}" statusLabel:text="{status_of_job}" statusButton:title="{change_status}" ></ListItem>
+			</ListSection>
+			
+			<!-- Sets ListView's footerView property -->
+			<!--
+            <FooterView id="footerView">
+                <View backgroundColor="#DDD" height="Ti.UI.SIZE">
+                    <Label>Footer View</Label>
+                </View>
+            </FooterView> -->
+		</ListView>
+</Alloy>

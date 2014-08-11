@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="urlWindow" class="container">
+		<ImageView class="span3"  image="/images/global/Minyawns-Logo-Design_draft_03.png" top="5%" />
+		<TextField class="txt span1 txtborder" top="30%"  id="emailTextField" hintText="Username"  keyboardType="Ti.UI.KEYBOARD_EMAIL"  borderStyle="Titanium.UI.INPUT_BORDERSTYLE_ROUNDED" textAlign="center"></TextField>
+		<TextField class="txt span1 txtborder" top="37%" id="passwordTextField" hintText="Password"  passwordMask="true" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_ROUNDED" textAlign="center"></TextField>
+		<Button id="loginButton" class="span1 login"  top="47%" onClick="loginButtonClicked" >Login</Button>
+		<Label class="banner" top="60%">Get using Minions, faster!</Label>
+	<!--	<LoginButton  id="fbButton"top="70%" ns="Alloy.Globals.Facebook"/> -->
+	
+		<Button id="fbButton" class="span2 fblogin" top="70%" onClick="fbLogin" image="/images/global/Social_Sign_In_03.png" title="Sign in with Facebook"></Button>
+	</Window>
+</Alloy>

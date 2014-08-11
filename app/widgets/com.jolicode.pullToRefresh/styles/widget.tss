@@ -1,0 +1,30 @@
+"#container[platform=android]": {
+    
+    layout:'vertical',
+    showVerticalScrollIndicator: true,
+    width: Ti.UI.FILL,
+},
+
+"#allJobsScreen": {
+	backgroundColor: "#E8E8E8",
+	height : '100%',
+	width : '100%'
+},
+"#topBarView": {
+	top: '0%',
+	width: '100%',
+	backgroundColor: '#83CB17',
+	height: '9%'
+},
+"#settingImg" : {
+	left: '2%',
+	width: '8%',
+	height: '65%',
+	image: '/images/global/menu.png'
+},
+"#logoImg":{
+	left:'10%',
+	width:'30%',
+	height:'70%',
+	image:'/images/global/minions.png'
+}

@@ -1,0 +1,6 @@
+<Alloy>
+    <Window class="container1">
+        <View id='indicatorBack'/>
+        <ActivityIndicator id='activityInd'/>
+    </Window>
+</Alloy>

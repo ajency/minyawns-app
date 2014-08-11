@@ -1,0 +1,10 @@
+".container": {
+	backgroundImage:'images/global/app.jpg'
+},
+'.banner':{
+	color : "#FFF",
+	font : {
+		fontFamily: "OpenSans",
+		fontSize:'15dp'
+	}
+}
